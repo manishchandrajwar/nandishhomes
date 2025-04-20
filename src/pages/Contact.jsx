@@ -5,12 +5,21 @@ const Contact = () => {
     <div className="contact-container">
       <h1 className="page-title">Contact Us</h1>
       <p className="form-info">
-        Click <a href="https://forms.gle/5roRUvy8iNVXg4Lr7" target="_blank" rel="noopener noreferrer">here</a> to fill the contact form.
+        Click{" "}
+        <a
+          href="https://form.jotform.com/251091660663456"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          here
+        </a>{" "}
+        to fill the contact form.
       </p>
       <p className="form-info">
-        Contact Form is not working now, click on the link above.
+        Contact Form is not working now, click on the link above or call{" "}
+        <span className="highlight-number">+91 9003918651</span>
       </p>
-      
+
       <form className="contact-form">
         <div className="form-group">
           <label>First Name</label>

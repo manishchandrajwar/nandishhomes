@@ -64,3 +64,7 @@
     cursor: not-allowed;
   }
   
+  .highlight-number {
+    color: #e91e63; /* You can pick any color you like */
+    font-weight: bold;
+  }
