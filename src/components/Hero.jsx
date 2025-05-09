@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="overlay">
-        <h1>Book Your Dream Villa</h1>
+        <h1>Book Your Dream Villa Today</h1>
       </div>
     </div>
   );
