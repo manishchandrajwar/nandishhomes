@@ -16,7 +16,7 @@ const Footer = () => {
         <p>
           Address: RS No 181/3A3, R Farm Lands, Pattanur Village, Vanur Taluk, Tamil Nadu 605111
         </p>
-        <p>Phone: 09628298651</p>
+        <p>Phone: 91-9003918651</p>
       </div>
     </footer>
   );
