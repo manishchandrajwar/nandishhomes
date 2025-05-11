@@ -1,4 +1,3 @@
-// src/components/Hero/Hero.jsx
 import "./home.css";
 import image1 from "../../assets/img1.jpeg";
 import image2 from "../../assets/img2.jpeg";
