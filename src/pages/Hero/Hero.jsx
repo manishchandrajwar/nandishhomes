@@ -1,4 +1,8 @@
+<<<<<<< HEAD:src/pages/Home/Home.jsx
 import "./home.css";
+=======
+import "./hero.css";
+>>>>>>> 0cd3014faa42dd021535fd386dbc772e0b6dd1ad:src/pages/Hero/Hero.jsx
 import image1 from "../../assets/img1.jpeg";
 import image2 from "../../assets/img2.jpeg";
 import image3 from "../../assets/img3.jpeg";
@@ -8,7 +12,7 @@ import image6 from "../../assets/img6.jpeg";
 import image7 from "../../assets/img7.jpeg";
 import image8 from "../../assets/img8.jpeg";
 
-const Home = () => {
+const Hero = () => {
   return (
     <div className="hero">
       <div className="slider">
@@ -21,6 +25,7 @@ const Home = () => {
           <img src={image6} alt="Slide 6" />
           <img src={image7} alt="Slide 7" />
           <img src={image8} alt="Slide 8" />
+          <img src={image4} alt="Slide 4" />
         </div>
       </div>
       <div className="overlay">
@@ -30,4 +35,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Hero;
