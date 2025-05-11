@@ -1,8 +1,4 @@
-<<<<<<< HEAD:src/pages/Home/Home.jsx
-import "./home.css";
-=======
 import "./hero.css";
->>>>>>> 0cd3014faa42dd021535fd386dbc772e0b6dd1ad:src/pages/Hero/Hero.jsx
 import image1 from "../../assets/img1.jpeg";
 import image2 from "../../assets/img2.jpeg";
 import image3 from "../../assets/img3.jpeg";
