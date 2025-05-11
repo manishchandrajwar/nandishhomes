@@ -22,6 +22,7 @@ const Home = () => {
           <img src={image6} alt="Slide 6" />
           <img src={image7} alt="Slide 7" />
           <img src={image8} alt="Slide 8" />
+          <img src={image4} alt="Slide 4" />
         </div>
       </div>
       <div className="overlay">
