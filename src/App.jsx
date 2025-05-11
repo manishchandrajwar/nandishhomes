@@ -3,9 +3,9 @@ import './App.css';
 import Header from './components/Header/Header';
 import AboutUs from './pages/AboutUs/AboutUs';
 import ContactUs from './pages/ContactUs/ContactUs';
-import Home from './pages/Home/Home'; // Create this component
 import { Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
+import Hero from './pages/Hero/Hero';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Header />
       <main className="main-content">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Hero />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/contact" element={<ContactUs />} />
           

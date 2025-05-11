@@ -1,4 +1,4 @@
-import "./home.css";
+import "./hero.css";
 import image1 from "../../assets/img1.jpeg";
 import image2 from "../../assets/img2.jpeg";
 import image3 from "../../assets/img3.jpeg";
@@ -8,7 +8,7 @@ import image6 from "../../assets/img6.jpeg";
 import image7 from "../../assets/img7.jpeg";
 import image8 from "../../assets/img8.jpeg";
 
-const Home = () => {
+const Hero = () => {
   return (
     <div className="hero">
       <div className="slider">
@@ -31,4 +31,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Hero;
