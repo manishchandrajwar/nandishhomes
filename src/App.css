@@ -1,9 +1,12 @@
 /* Global Styles */
-body {
+html, body, #root {
+  height: 100%;
   margin: 0;
-  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-    font-family: 'Poppins', sans-serif;
+  padding: 0;
+}
 
+body {
+  font-family: 'Poppins', sans-serif;
   background-color: #f8f9fc;
   color: #333;
 }
@@ -11,11 +14,26 @@ body {
 .app-container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .main-content {
   flex: 1;
   padding: 2rem;
+  overflow-y: auto;
 }
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  padding-bottom: 60px; /* space for the footer height */
+}
+
+
+@media (max-width: 600px) {
+  .main-content {
+    padding: 1rem;
+  }
+}
+
 
